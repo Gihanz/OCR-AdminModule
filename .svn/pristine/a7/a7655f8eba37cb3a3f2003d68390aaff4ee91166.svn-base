@@ -1,0 +1,18 @@
+MAXLIMIT=10
+providerUri = ldap://172.20.8.43:389
+AdminUser = upmuser1
+adminDN = OU=TEST,OU=DMS,DC=BANKOFCEYLON,DC=LOCAL
+#AdminUser = appmgr
+#adminDN = OU=DMS,DC=BANKOFCEYLON,DC=LOCAL
+adminPwd = boc@123
+
+
+commonDN =DC=BANKOFCEYLON,DC=LOCAL
+allowedAdminGroup=UPMadmin
+allowedGroup=BranchManager,RLCManager
+branchAllowedRoles=CreditAssistance,CreditOfficer,Inquser,ICO,BranchManager,RelationshipOfficer,RelationshipManager,DGM_Corporate_Offshore,RLC_CreditOfficer
+userObjectClass = (objectclass=user)
+groupObjectClass = (objectclass=group)
+AREAMANAGERROLE=AreaManager
+BRANCHROLE=CreditAssistance, CreditOfficer, Inquser
+RLCMANAGER=RLC_Manager

@@ -1,0 +1,26 @@
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+   <persistence-unit name="wfconfigPersistence">
+      <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <class>com.boc.model.BranchBase</class>
+      <class>com.boc.model.AreaBase</class>
+      <class>com.boc.model.AreaBranchMapping</class>
+      <class>com.boc.model.DocumentTypeBase</class>
+      <class>com.boc.model.ProductBase</class>
+      <class>com.boc.model.ProductCategoryBase</class>
+      <class>com.boc.model.ProductDocumentChecklistMapping</class>
+      <class>com.boc.model.ProductLoanDetails</class>
+      <class>com.boc.model.ProductSecurityTypeMapping</class>
+      <class>com.boc.model.ProfessionList</class>
+      <class>com.boc.model.ProfessionProductMapping</class>
+      <class>com.boc.model.ProvinceBase</class>
+      <class>com.boc.model.ProvinceBranchMapping</class>
+      <class>com.boc.model.RlcBase</class>
+      <class>com.boc.model.RlcBranchMapping</class>
+      <class>com.boc.model.RoleBase</class>
+      <class>com.boc.model.SecurityTypeBase</class>
+      <class>com.boc.model.SecurityTypeDocumentChecklistMapping</class>
+      <class>com.boc.model.UserRoleProductCategoryBranchMapping</class>
+      <class>com.boc.model.UserRoleProductCategoryMapping</class>
+      <class>com.boc.model.UsrBase</class>
+   </persistence-unit>
+</persistence>
